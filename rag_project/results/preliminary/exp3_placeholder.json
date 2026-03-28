@@ -1,0 +1,15 @@
+{
+  "experiment": "exp3_horizontal_scaling",
+  "status": "not_run_in_preliminary",
+  "reason": "Needs duplicate api/embed/vector services behind a load balancer (e.g. nginx) and compose scale.",
+  "planned_instances": [
+    1,
+    2,
+    4
+  ],
+  "metrics": [
+    "throughput_rps",
+    "mean_ms",
+    "p95_ms"
+  ]
+}

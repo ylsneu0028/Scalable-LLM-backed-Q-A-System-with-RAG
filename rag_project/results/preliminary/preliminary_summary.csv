@@ -1,0 +1,5 @@
+experiment,index_chunks,retrieve_mean_ms,retrieve_p95_ms,e2e_mean_ms,e2e_p95_ms,concurrency,total,success,errors,error_rate,mean_ms,p95_ms,rps
+exp2_index_size,1000,60.514,67.974,3414.023,6963.657,,,,,,,,
+exp2_index_size,5000,63.134,79.543,2129.178,4199.259,,,,,,,,
+exp1_concurrency,,,,,,3,20,20,0,0.0,2260.857,2742.708,1.257
+exp1_concurrency,,,,,,8,32,32,0,0.0,6238.504,7607.15,1.076

@@ -1,0 +1,50 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.12.5
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  embed:
+    build: ./services/embed
+    environment:
+      MODEL_NAME: sentence-transformers/all-MiniLM-L6-v2
+    ports:
+      - "8001:8001"
+
+  vector:
+    build: ./services/vector
+    environment:
+      QDRANT_URL: http://qdrant:6333
+      COLLECTION_NAME: rag_chunks
+      VECTOR_DIM: "384"
+      # Set to 0 in any shared/prod deploy; enables POST /admin/reset_collection for local benchmarks
+      ALLOW_BENCH_RESET: "1"
+    ports:
+      - "8002:8002"
+    depends_on:
+      - qdrant
+
+  api:
+    build: ./services/api
+    environment:
+      VECTOR_URL: http://vector:8002
+      EMBED_URL: http://embed:8001
+      # Ollama on your Mac host (install separately: https://ollama.com)
+      OLLAMA_URL: http://host.docker.internal:11434
+      OLLAMA_MODEL: llama3.2:1b
+      COLLECTION_NAME: rag_chunks
+      TOP_K: "5"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - qdrant
+      - embed
+      - vector
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  qdrant_storage:

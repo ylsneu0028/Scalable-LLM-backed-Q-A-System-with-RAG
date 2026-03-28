@@ -1,0 +1,17 @@
+{
+  "label": "5000",
+  "samples": 25,
+  "question_template": "What is the on-call policy for P1 incidents?",
+  "embed_ms": {
+    "mean": 24.314,
+    "p95": 52.512
+  },
+  "search_ms": {
+    "mean": 38.82,
+    "p95": 45.932
+  },
+  "retrieve_total_ms": {
+    "mean": 63.134,
+    "p95": 79.543
+  }
+}

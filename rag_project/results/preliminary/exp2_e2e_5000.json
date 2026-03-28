@@ -1,0 +1,14 @@
+{
+  "api_url": "http://127.0.0.1:8000",
+  "concurrency": 2,
+  "total_requests": 6,
+  "success": 6,
+  "errors": 0,
+  "error_rate": 0.0,
+  "duration_wall_s": 6.64,
+  "throughput_rps": 0.904,
+  "latency_ms": {
+    "mean": 2129.178,
+    "p95": 4199.259
+  }
+}

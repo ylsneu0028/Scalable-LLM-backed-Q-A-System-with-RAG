@@ -1,0 +1,10 @@
+{
+  "num_chunks_target": 5000,
+  "embed_url": "http://127.0.0.1:8001",
+  "vector_url": "http://127.0.0.1:8002",
+  "reset_http_status": 200,
+  "reset_ms": 454.54,
+  "embed_upsert_total_ms": 49318.1,
+  "points_upserted": 5000,
+  "qdrant_points_count": 5000
+}
