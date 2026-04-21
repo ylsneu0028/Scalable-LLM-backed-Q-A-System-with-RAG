@@ -27,13 +27,23 @@ services:
     depends_on:
       - qdrant
 
+  llm:
+    build: ./services/llm
+    environment:
+      # Ollama on your Mac host (install separately: https://ollama.com)
+      OLLAMA_URL: http://host.docker.internal:11434
+      OLLAMA_MODEL: llama3.2:1b
+    ports:
+      - "8003:8003"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
   api:
     build: ./services/api
     environment:
       VECTOR_URL: http://vector:8002
       EMBED_URL: http://embed:8001
-      # Ollama on your Mac host (install separately: https://ollama.com)
-      OLLAMA_URL: http://host.docker.internal:11434
+      LLM_URL: http://llm:8003
       OLLAMA_MODEL: llama3.2:1b
       COLLECTION_NAME: rag_chunks
       TOP_K: "5"
@@ -43,8 +53,7 @@ services:
       - qdrant
       - embed
       - vector
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+      - llm
 
 volumes:
   qdrant_storage:

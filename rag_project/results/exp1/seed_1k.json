@@ -1,0 +1,45 @@
+{
+  "alb_url": "http://rag-qa-alb-955552139.us-west-2.elb.amazonaws.com",
+  "target_chunks": 1000,
+  "uploaded_chunks": 1004,
+  "num_uploads": 5,
+  "total_wall_s": 9.33,
+  "chunks_per_second": 107.66,
+  "uploads": [
+    {
+      "batch": 0,
+      "chunks_added": 204,
+      "cumulative": 204,
+      "wall_ms": 2029.2,
+      "ingest_time_ms_reported": 1745.59
+    },
+    {
+      "batch": 1,
+      "chunks_added": 204,
+      "cumulative": 408,
+      "wall_ms": 1912.5,
+      "ingest_time_ms_reported": 1745.34
+    },
+    {
+      "batch": 2,
+      "chunks_added": 204,
+      "cumulative": 612,
+      "wall_ms": 1845.4,
+      "ingest_time_ms_reported": 1696.39
+    },
+    {
+      "batch": 3,
+      "chunks_added": 204,
+      "cumulative": 816,
+      "wall_ms": 1792.7,
+      "ingest_time_ms_reported": 1710.87
+    },
+    {
+      "batch": 4,
+      "chunks_added": 188,
+      "cumulative": 1004,
+      "wall_ms": 1625.2,
+      "ingest_time_ms_reported": 1567.55
+    }
+  ]
+}

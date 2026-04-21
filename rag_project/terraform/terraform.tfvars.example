@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars and adjust.
+# aws_region     = "us-west-2"
+# project_name   = "rag-qa"
+# image_tag      = "latest"
+# ollama_model   = "llama3.2:1b"
+# More headroom (needs quota): task_cpu = 16384, task_memory = 122880
+# Default in variables.tf: 8192 CPU, 61440 MiB — deploy uses min healthy0 to avoid 2× vCPU during rolling updates
+# allowed_ingress_cidr = "0.0.0.0/0" # restrict to your IP for demos
+# alb_idle_timeout_seconds = 900   # increase if /query still returns empty (ALB cut the connection)

@@ -1,0 +1,12 @@
+{"ts": 1776540948.849202, "status": 200, "embed_ms": 23.91, "retrieve_ms": 16.83, "llm_ms": 11254.35, "total_ms": 11295.1}
+{"ts": 1776540968.191236, "status": 200, "embed_ms": 40.11, "retrieve_ms": 26.8, "llm_ms": 29579.87, "total_ms": 29646.79}
+{"ts": 1776540975.863214, "status": 200, "embed_ms": 41.18, "retrieve_ms": 28.52, "llm_ms": 36255.79, "total_ms": 36325.51}
+{"ts": 1776540983.509378, "status": 200, "embed_ms": 42.11, "retrieve_ms": 27.44, "llm_ms": 34493.13, "total_ms": 34562.71}
+{"ts": 1776540994.325904, "status": 200, "embed_ms": 45.72, "retrieve_ms": 28.27, "llm_ms": 26020.47, "total_ms": 26094.47}
+{"ts": 1776541009.7249222, "status": 200, "embed_ms": 41.22, "retrieve_ms": 29.67, "llm_ms": 33600.28, "total_ms": 33671.19}
+{"ts": 1776541017.253109, "status": 200, "embed_ms": 42.02, "retrieve_ms": 25.15, "llm_ms": 33644.27, "total_ms": 33711.45}
+{"ts": 1776541026.436768, "status": 200, "embed_ms": 47.26, "retrieve_ms": 30.89, "llm_ms": 31992.68, "total_ms": 32070.86}
+{"ts": 1776541027.230865, "status": 200, "embed_ms": 36.84, "retrieve_ms": 27.4, "llm_ms": 17268.37, "total_ms": 17332.63}
+{"ts": 1776541037.1657379, "status": 200, "embed_ms": 40.0, "retrieve_ms": 29.14, "llm_ms": 19796.7, "total_ms": 19865.86}
+{"ts": 1776541044.747181, "status": 200, "embed_ms": 37.01, "retrieve_ms": 18.13, "llm_ms": 18202.47, "total_ms": 18257.62}
+{"ts": 1776541054.779638, "status": 200, "embed_ms": 40.1, "retrieve_ms": 22.53, "llm_ms": 27441.93, "total_ms": 27504.57}

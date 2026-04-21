@@ -1,0 +1,17 @@
+{"ts": 1776410701.224865, "status": 200, "embed_ms": 188.86, "retrieve_ms": 342.42, "llm_ms": 160813.52, "total_ms": 161344.82}
+{"ts": 1776410708.579925, "status": 200, "embed_ms": 305.08, "retrieve_ms": 335.83, "llm_ms": 167854.61, "total_ms": 168495.52}
+{"ts": 1776410716.057685, "status": 200, "embed_ms": 345.55, "retrieve_ms": 374.29, "llm_ms": 175306.63, "total_ms": 176026.49}
+{"ts": 1776410723.437813, "status": 200, "embed_ms": 369.28, "retrieve_ms": 261.51, "llm_ms": 182511.75, "total_ms": 183142.55}
+{"ts": 1776410730.855875, "status": 200, "embed_ms": 339.99, "retrieve_ms": 342.51, "llm_ms": 190155.3, "total_ms": 190837.82}
+{"ts": 1776410738.695244, "status": 200, "embed_ms": 274.74, "retrieve_ms": 362.26, "llm_ms": 198079.69, "total_ms": 198716.72}
+{"ts": 1776410745.8579998, "status": 200, "embed_ms": 460.73, "retrieve_ms": 237.62, "llm_ms": 204933.7, "total_ms": 205632.07}
+{"ts": 1776410753.2311301, "status": 200, "embed_ms": 450.0, "retrieve_ms": 236.67, "llm_ms": 212358.65, "total_ms": 213045.32}
+{"ts": 1776410760.934937, "status": 200, "embed_ms": 266.78, "retrieve_ms": 343.41, "llm_ms": 220375.67, "total_ms": 220985.89}
+{"ts": 1776410774.729145, "status": 200, "embed_ms": 317.77, "retrieve_ms": 337.13, "llm_ms": 234107.25, "total_ms": 234762.17}
+{"ts": 1776410787.121723, "status": 200, "embed_ms": 306.52, "retrieve_ms": 336.4, "llm_ms": 246480.49, "total_ms": 247123.43}
+{"ts": 1776410795.022954, "status": 200, "embed_ms": 372.55, "retrieve_ms": 351.61, "llm_ms": 254256.61, "total_ms": 254980.8}
+{"ts": 1776410805.18144, "status": 200, "embed_ms": 610.72, "retrieve_ms": 187.84, "llm_ms": 264267.8, "total_ms": 265066.38}
+{"ts": 1776410812.511468, "status": 200, "embed_ms": 398.09, "retrieve_ms": 178.65, "llm_ms": 271588.88, "total_ms": 272165.64}
+{"ts": 1776410819.688643, "status": 200, "embed_ms": 302.5, "retrieve_ms": 343.57, "llm_ms": 279105.2, "total_ms": 279751.29}
+{"ts": 1776410828.187995, "status": 200, "embed_ms": 418.61, "retrieve_ms": 99.48, "llm_ms": 286664.39, "total_ms": 287182.5}
+{"ts": 1776410835.559507, "status": 200, "embed_ms": 374.23, "retrieve_ms": 321.21, "llm_ms": 294690.78, "total_ms": 295386.24}

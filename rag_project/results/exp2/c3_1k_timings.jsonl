@@ -1,0 +1,14 @@
+{"ts": 1776540352.708246, "status": 200, "embed_ms": 23.99, "retrieve_ms": 17.48, "llm_ms": 8397.43, "total_ms": 8438.92}
+{"ts": 1776540361.197628, "status": 200, "embed_ms": 259.14, "retrieve_ms": 30.26, "llm_ms": 15762.61, "total_ms": 16052.04}
+{"ts": 1776540364.45587, "status": 200, "embed_ms": 40.36, "retrieve_ms": 27.21, "llm_ms": 18242.71, "total_ms": 18310.29}
+{"ts": 1776540372.877414, "status": 200, "embed_ms": 40.35, "retrieve_ms": 27.6, "llm_ms": 20044.59, "total_ms": 20112.56}
+{"ts": 1776540381.9919071, "status": 200, "embed_ms": 32.9, "retrieve_ms": 25.25, "llm_ms": 20652.01, "total_ms": 20710.18}
+{"ts": 1776540389.323803, "status": 200, "embed_ms": 41.19, "retrieve_ms": 30.76, "llm_ms": 24760.63, "total_ms": 24832.66}
+{"ts": 1776540398.1603642, "status": 200, "embed_ms": 40.25, "retrieve_ms": 26.09, "llm_ms": 25184.71, "total_ms": 25251.07}
+{"ts": 1776540406.069634, "status": 200, "embed_ms": 39.72, "retrieve_ms": 26.01, "llm_ms": 23971.49, "total_ms": 24037.24}
+{"ts": 1776540418.570511, "status": 200, "embed_ms": 35.69, "retrieve_ms": 26.6, "llm_ms": 29142.29, "total_ms": 29204.6}
+{"ts": 1776540427.15153, "status": 200, "embed_ms": 39.25, "retrieve_ms": 27.36, "llm_ms": 28882.49, "total_ms": 28949.12}
+{"ts": 1776540434.3729138, "status": 200, "embed_ms": 39.02, "retrieve_ms": 28.55, "llm_ms": 28204.49, "total_ms": 28272.09}
+{"ts": 1776540443.929407, "status": 200, "embed_ms": 39.57, "retrieve_ms": 28.16, "llm_ms": 25255.81, "total_ms": 25323.56}
+{"ts": 1776540448.25139, "status": 200, "embed_ms": 39.4, "retrieve_ms": 27.51, "llm_ms": 20973.05, "total_ms": 21039.98}
+{"ts": 1776540459.056928, "status": 200, "embed_ms": 30.74, "retrieve_ms": 17.85, "llm_ms": 24588.4, "total_ms": 24637.0}

@@ -1,0 +1,6 @@
+{"ts": 1776544278.870593, "status": 200, "embed_ms": 69.32, "retrieve_ms": 64.16, "llm_ms": 59591.93, "total_ms": 59725.52}
+{"ts": 1776544315.476873, "status": 200, "embed_ms": 96.98, "retrieve_ms": 35.36, "llm_ms": 96165.15, "total_ms": 96297.49}
+{"ts": 1776544352.357064, "status": 200, "embed_ms": 231.4, "retrieve_ms": 111.1, "llm_ms": 131880.58, "total_ms": 132223.1}
+{"ts": 1776544389.923881, "status": 200, "embed_ms": 191.41, "retrieve_ms": 113.42, "llm_ms": 169357.62, "total_ms": 169662.47}
+{"ts": 1776544436.8681312, "status": 200, "embed_ms": 288.67, "retrieve_ms": 377.55, "llm_ms": 215021.87, "total_ms": 215688.11}
+{"ts": 1776544481.2663171, "status": 200, "embed_ms": 428.76, "retrieve_ms": 199.33, "llm_ms": 259462.12, "total_ms": 260090.22}
